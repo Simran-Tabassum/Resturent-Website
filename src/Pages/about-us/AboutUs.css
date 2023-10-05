@@ -1,0 +1,123 @@
+.resturent-AboutUs{
+    background: url(../../assert/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    background-attachment: fixed;
+    position: relative;
+}
+.resturent-AboutUs-G-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+}
+.resturent-AboutUs-G-img img{
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+.resturent-AboutUs-content{
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resturent-AboutUs-content-about{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.resturent-AboutUs-content h1{
+    font-size: 4rem;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color:#DCCA87 ;
+}
+.spoon-img{
+    width: 45px;
+}
+.resturent-AboutUs-content p{
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+  color: #AAAAAA ;
+  text-align: end;
+  margin: 2rem 0rem;
+}
+.Know-more-button{
+    color: #0C0C0C;
+    background-color:#F5EFDB ;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    width: 285px;
+    transition: 0.5s ease;
+}
+.Know-more-button:hover{
+    border: 2px solid #F5EFDB;
+    color: #F5EFDB;
+    background-color: transparent;
+    cursor: pointer;
+}
+.resturent-AboutUs-content-knife-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 3rem;
+}
+.resturent-AboutUs-content-knife-img img{
+    height: 910px;
+}
+.resturent-AboutUs-content-history{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.resturent-AboutUs-content-history h1{
+    text-align: start;
+}
+.resturent-AboutUs-content-history p{
+    text-align: start;
+}
+@media screen and (max-width: 850px ){
+    .resturent-AboutUs-content{
+        flex-direction: column;
+    }
+    .resturent-AboutUs-content-about{
+        align-items: center;
+        justify-content: center;
+    }
+    .resturent-AboutUs-content-about p{
+        text-align: center;
+    }
+    .resturent-AboutUs-content-history {
+        align-items: center;
+        justify-content: center;
+    }
+    .resturent-AboutUs-content-history h1{
+        text-align: center;
+    }
+    .resturent-AboutUs-content-history p{
+        text-align: center;
+    }
+    .resturent-AboutUs-content-knife-img img{
+        height: 710px;
+    }
+}
