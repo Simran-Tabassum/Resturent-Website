@@ -146,6 +146,7 @@
         font-size: 1rem;
     }
     .resturent-header{
+        padding: 2rem 2rem;
         flex-direction: column;
     }
     .resturent-header-info-h1{
@@ -155,6 +156,5 @@
     .resturent-header-img img {
         width: 100%;
         margin-top: 2rem;
-        /* margin-left: -49px; */
     }
 }
