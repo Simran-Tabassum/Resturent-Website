@@ -7,6 +7,8 @@ import SpecialMenu from './Pages/special-menu/SpecialMenu';
 import Chef from './Pages/chef/Chef'
 import Intro from './Pages/intro/Intro';
 import Laurels from './Pages/laurels/Laurels';
+import FindUs from './Pages/find-us/FindUs';
+import Footer from './Pages/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Chef/>
       <Intro/>
       <Laurels/>
+      <FindUs/>
+      <Footer/>
     </div>
   );
 }

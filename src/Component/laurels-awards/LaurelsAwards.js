@@ -1,4 +1,5 @@
 import React from 'react'
+import './LaurelsAwards.css'
 
 const LaurelsAwards = (props) => {
   return (

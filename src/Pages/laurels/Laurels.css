@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 6rem;
+    padding: 4rem 6rem 0rem 6rem;
 }
 .laurels-information{
     flex: 1;
@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 .laurels-information-heading{
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -30,6 +30,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 3rem;
+    column-gap: 5rem;
+    row-gap: 5rem;
 }
 .laurels-image{
   flex: 1;
@@ -40,5 +42,81 @@
   margin-left: 2rem;
 }
 .laurels-image img{
-    width: 80%;
+    width: 70%;
+}
+@media screen and (max-width: 1500px) {
+    .laurels{
+        padding:  4rem 4rem 0rem 4rem;
+        padding-right: 0; 
+    }
+    .laurels-image{
+        margin-left: 0rem;
+    }
+    .laurels-information-award{
+        row-gap: 4rem;
+        column-gap: 3rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .laurels-information-award{
+        row-gap: 3.5rem;
+        column-gap: 1.5rem;
+    }
+    .laurels-information{
+        margin-right: -45px;
+    }
+}
+@media screen and (max-width: 1165px)and (min-width:800px) {
+    .laurels-image img{
+        width: 80%;
+    }
+    .laurels-information-award{
+        row-gap: 2.5rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .laurels{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 3.2rem;
+    }
+    .laurels-information{ 
+        align-items: center;
+    }
+    .laurels-image img{
+        width: 80%;
+        margin-top: 3rem;
+        margin-left: -70px;
+    }
+    .laurels-information-award{
+        row-gap: 4rem;
+        column-gap: 1.8rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .laurels{
+        display: flex;
+        flex-direction: column;
+    }
+    .laurels-image img{
+        width: 90%;
+        margin-top: 3rem;
+        margin-left: -60px;
+        /* margin-bottom: 2rem; */
+    }
+    .laurels-information-award{
+        row-gap: 3rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .laurels{
+        padding:  4rem 2.5rem 0rem 2.5rem;
+    }
+    .laurels-information-heading{
+        font-size: 3.7rem
+    }
+    .laurels-image img{
+        width: 100%;
+        margin-left: -40px;
+    }
 }

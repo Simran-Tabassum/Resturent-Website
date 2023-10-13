@@ -1,0 +1,87 @@
+.newsletter{
+    padding: 2rem 4rem ;
+    background-color: #0C0C0C;
+}
+.newsletter-box{
+    padding: 2rem 4rem;
+    padding-top: 1rem;
+    border: 1px solid #DCCA87;
+    padding-bottom:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.newsletter-heading{
+    
+}
+.newsletter-heading-text{
+    font-size: 4rem;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding: 1rem 0;
+}
+.newsletter-heading-para{
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.newsletter-input{
+    flex-direction: row;
+    margin-top: 2.5rem;
+}
+.newsletter-input input{
+    width: 620px;
+    border: 1px solid #DCCA87;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: #0C0C0C;
+    margin-bottom: 2rem;
+}
+.newsletter-input button{
+    background-color: #F5EFDB;
+    color:#0C0C0C;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.newsletter-input button:hover{
+    color:#DCCA87;
+    background-color: transparent;
+    border: 1px solid #DCCA87;
+}
+@media screen and (max-width:850px){
+    .newsletter-heading-text{
+       font-size: 2.5rem; 
+    }
+    .newsletter-input input{
+        width: 100%;
+    }
+    @media screen and (max-width:650px){
+        .newsletter{
+            padding: 2rem 2rem;
+        }
+        .newsletter-box{
+            padding: 2rem 2rem;
+        }
+        .newsletter-heading-text{
+            font-size: 2rem; 
+         }
+        .newsletter-input input{
+            width: 100%;
+        }
+    }
+}

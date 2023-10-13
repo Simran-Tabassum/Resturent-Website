@@ -111,7 +111,7 @@
         width: 210px;
     }
 }
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1150px){
     .resturent-navbar-list{
         display: none;
     }

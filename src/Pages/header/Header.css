@@ -5,22 +5,19 @@
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    /* border: 2px solid red; */
+    text-align: center;
 }
 .resturent-header-info{
-    /* flex: 1; */
     width: 100%;
     display: flex;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
-    /* border: 2px solid red; */
 }
 .resturent-header-info-h1{
     color: #DCCA87 ;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    /* line-height: 117px; */
     font-size: 4.5rem;
 }
 .resturent-header-info-description{
@@ -51,13 +48,7 @@
     cursor: pointer;
 }
 .resturent-header-img img {
-    /* flex: 1; */
     width: 80%;
-    /* height: 50%; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2rem; */
 }
 @media screen and (min-width: 2000px){
 
