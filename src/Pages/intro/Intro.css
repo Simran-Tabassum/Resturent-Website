@@ -8,7 +8,6 @@
     object-fit: cover;
 }
 .introduction-video-button-div{
-    /* border:  2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;

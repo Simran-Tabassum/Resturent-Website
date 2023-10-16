@@ -10,7 +10,6 @@
     display: flex;
     justify-content: flex-start;
     align-items:center;
-    /* border: 2px solid red; */
 }
 .resturent-navbar-logo img{
     width: 150px;
@@ -21,7 +20,6 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    /* border: 2px solid red; */
 }
 .resturent-navbar-list li{
     margin: 0 1rem;
@@ -48,11 +46,9 @@
     text-decoration: none;
     transition: 0.5s ease;
     font-size: 1.5rem;
-    /* border: 1px solid #ffffff; */
 }
 .resturent-navbar-login a:hover{
     color:#ccc3c3  ;
-    /* border: 1px solid #ffffff; */
     border-bottom: 1px solid #ccc3c3;
 }
 .resturent-navbar-login div{
@@ -66,7 +62,6 @@
 .resturent-navbar-smallscreen-menu-icon{
     color: #fff;
     font-size: 27px;
-    /* border: 2px solid red; */
 }
 .resturent-navbar-smallscreen-menu{
     position: fixed;

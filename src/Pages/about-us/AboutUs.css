@@ -103,6 +103,7 @@
     .resturent-AboutUs-content-about{
         align-items: center;
         justify-content: center;
+
     }
     .resturent-AboutUs-content-about p{
         text-align: center;
@@ -119,5 +120,14 @@
     }
     .resturent-AboutUs-content-knife-img img{
         height: 710px;
+    }
+}
+@media screen and (max-width: 350px ){
+    .resturent-AboutUs-G-img img{
+        width: 320px;
+    }
+}@media screen and (max-width: 450px ){
+    .resturent-AboutUs{
+        padding: 2rem 2rem;
     }
 }

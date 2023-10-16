@@ -12,18 +12,10 @@
 }
 .chef-image{
   flex: 1;
-  /* width: 100%; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* margin-left: 2rem; */
   justify-content: flex-start;
-  /* margin-right: 2rem; */
-  /* border: 2px solid rgb(234, 255, 0); */
 }
 .chef-image img{
     width: 70%;
-    /* border: 2px solid red; */
 }
 .chef-content{
   flex: 1;
@@ -137,9 +129,6 @@
     }
 }
 @media screen and (max-width: 1000px ){
-    .chef{
-        /* padding: 0rem 3rem; */
-    }
     .chef-content-heading{
         font-size: 2.7rem;
     }
@@ -164,7 +153,6 @@
         text-align: center;
     }
     .chef-content{
-        /* text-align: center; */
         margin-top: 2rem;
     }
     .chef-image img{

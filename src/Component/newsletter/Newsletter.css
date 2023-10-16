@@ -57,6 +57,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 .newsletter-input button:hover{
     color:#DCCA87;

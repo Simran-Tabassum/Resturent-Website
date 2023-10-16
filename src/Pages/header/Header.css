@@ -124,7 +124,7 @@
         width:280px ; 
     }
     .resturent-header-info-h1{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         margin: 0.2rem 0;
     }
     .resturent-header-img img {
@@ -141,11 +141,12 @@
         flex-direction: column;
     }
     .resturent-header-info-h1{
-        font-size: 3.7rem;
+        font-size: 3.2rem;
         margin: 0.2rem 0;
     }
     .resturent-header-img img {
         width: 100%;
         margin-top: 2rem;
     }
+
 }

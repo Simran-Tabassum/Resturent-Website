@@ -1,6 +1,5 @@
 import React from 'react'
 import'./SpecialMenu.css'
-// import {images,data} from '../../constants'
 import SubHeader from'../../Component/subheader/SubHeader'
 import Items from '../../Component/items/Items'
 import menuImg from '../../assert/menu.png'
